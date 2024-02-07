@@ -1,0 +1,31 @@
+{
+    "customer":[{
+        "id": 1,
+        "name": "John Doe"
+    }],
+    "vehicle":[{
+        "id": 1,
+        "customerId": 1,
+        "title": "MITSUBISHI ASX 2.0 S 16V 4P",
+        "value": 64000
+    }],
+    "leads":[{
+        "id":1,
+        "vehicleId": 1,
+        "type": 1,
+        "name": "Jhon Snow",
+        "email": "jhon@snow.com",
+        "phone": "+5541988888888",
+        "entryFee": 20000,
+        "status": "NEW"
+    }, {
+        "id":2,
+        "vehicleId": 1,
+        "type": 2,
+        "name": "Jhon Snow",
+        "email": "jhon@snow.com",
+        "phone": "+5541988888888",
+        "message": "Olá, gostaria de mais informações",
+        "status": "OPENED"
+    }]
+}
