@@ -43,6 +43,6 @@ O desafio é criar uma api em NestJS para portal de anúncios. Seguir com as rot
 
 * Não precisa se preocupar com autenticação, mas sempre que for realizado uma busca das propostas, só pode retornar do próprio cliente;
 
-_Utilizando SQlite e TypeORM crie um banco de dados seguindo o exemplo do db.json. Existe um cliente com anúncio e proposta para exemplo._
+_Utilizando TypeORM crie um banco de dados seguindo o exemplo do db.json. Existe um cliente com anúncio e proposta para exemplo._
 
 #### _Se precisar escrever, comece a partir daqui..._
