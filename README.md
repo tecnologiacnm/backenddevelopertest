@@ -24,7 +24,7 @@ O desafio é criar uma api em NestJS para portal de anúncios. Seguir com as rot
 
 + Lembre-se que este fluxo pode gerar muitas requisições por segundo em questão de ser um portal de anúncio;
 
-+ Caso anúncio não esteja ativo, não é possível enviar propostas para o mesmo;
++ Caso o anúncio não esteja ativo, não é possível enviar propostas para o mesmo;
 
 ### ESPECIFICAÇÕES
 * Os tipos de propostas são: 
