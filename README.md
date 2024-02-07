@@ -44,6 +44,4 @@ O desafio é criar uma api em NestJS para portal de anúncios. Seguir com as rot
 
 _Utilizando SQlite e TypeORM crie um banco de dados seguindo o exemplo do db.json. Existe um cliente com anúncio e proposta para exemplo._
 
-~~~~
-~~~~
 #### _Se precisar escrever, comece a partir daqui..._
