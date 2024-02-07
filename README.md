@@ -10,35 +10,36 @@
 Este teste tem como objetivo testar seus conhecimentos e tempo de entrega da atividade.
 
 ### DESAFIO
-O desafio é criar uma api em NestJS para portal de anúncios. Seguir com as rotas conforme as seguintes histórias
+O desafio é criar uma api em NestJS para portal de anúncios. Seguir com as rotas conforme as seguintes histórias.
 
 #### Stories:
 
-+ Como cliente quero listar as propostas enviadas pelos usuários (nome, tipo de proposta, telefone, email e data de envio).
++ Como cliente quero listar os leads enviadas pelos usuários (nome, tipo de proposta, telefone, email e data de envio).
 
-+ Como cliente quero visualizar as propostas enviadas pelos usuários (nome, titulo do anuncio, valores, tipo de proposta, telefone, email e data de envio).
++ Como cliente quero visualizar as informações dos leads enviados pelos usuários (nome, titulo do anuncio, valores, mensagem, tipo de proposta, telefone, email e data de envio).
 
-+ Como cliente gostaria de poder filtrar minhas propostas por tipo, período, pelo status da proposta(NEW, ANSWERED, OPENED, FILED).
++ Como cliente gostaria de poder filtrar minhas propostas por tipo, período, pelo status do lead(NEW, ANSWERED, OPENED, FILED).
 
-+ Como usuário quero poder enviar propostas para os anúncios.
++ Como usuário quero poder enviar lead para os anúncios.
 
-+ Este fluxo pode gerar muitas requisições por segundo em questão de ser um portal de anúncio.
++ Lembre-se que este fluxo pode gerar muitas requisições por segundo em questão de ser um portal de anúncio.
 
 + Caso anúncio não esteja ativo, não é possível enviar propostas para o mesmo.
 
 ### ESPECIFICAÇÕES
 * Os tipos de propostas são: 
-    * Financiamento(1)
+    * Financiamento - tipo 1
         * nome
         * email
         * telefone
-    * Mensagem(2)
+        * valor de entrada
+    * Mensagem - tipo 2
         * nome
         * email
         * telefone
         * mensagem enviada pelo usuário
 
-* Para listagem das propostas, não é para consultar o banco de dados.
+* Para listagem dos leads, não é para consultar o banco de dados. (Pense em outra forma de visualizar estes leads)
 
 * Não precisa se preocupar com autenticação, mas sempre que for realizado uma busca das propostas, só pode retornar do próprio cliente.
 
