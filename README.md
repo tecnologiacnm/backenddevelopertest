@@ -14,9 +14,9 @@ O desafio é criar uma api em NestJS para portal de anúncios. Seguir com as rot
 
 #### Stories:
 
-+ Como cliente quero listar os leads enviados pelos usuários (nome, tipo de proposta e data de envio);
++ Como cliente quero listar os leads enviados pelos usuários (id, nome, tipo de proposta e data de envio);
 
-+ Como cliente quero visualizar as informações dos leads enviados pelos usuários (nome, titulo do anuncio, valores, mensagem, tipo de proposta, telefone, email e data de envio);
++ Como cliente quero visualizar as informações de um lead (nome, titulo do anuncio, valores, mensagem, tipo de proposta, telefone, email e data de envio);
 
 + Como cliente gostaria de poder filtrar minhas propostas por tipo, período, pelo status do lead(NEW, ANSWERED, OPENED, FILED);
 
